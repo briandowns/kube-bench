@@ -119,6 +119,7 @@ The following table shows the valid targets based on the CIS Benchmark version.
 | cis-1.3| master, node |
 | cis-1.4| master, node |
 | cis-1.5| master, controlplane, node, etcd, policies |
+| rke2| master, controlplane, node, etcd, policies |
 | gke-1.0| master, controlplane, node, etcd, policies, managedservices |
 
 If no targets are specified, `kube-bench` will determine the appropriate targets based on the CIS Benchmark version.
