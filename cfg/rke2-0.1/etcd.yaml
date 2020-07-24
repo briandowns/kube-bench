@@ -25,6 +25,7 @@ groups:
           --cert-file=</path/to/ca-file>
           --key-file=</path/to/key-file>
         scored: true
+        type: "skip"
 
       - id: 2.2
         text: "Ensure that the --client-cert-auth argument is set to true (Scored)"
@@ -36,6 +37,7 @@ groups:
                 op: eq
                 value: true
               set: true
+        type: "skip"
         remediation: |
           Edit the etcd pod specification file $etcdconf on the master
           node and set the below parameter.
@@ -78,6 +80,7 @@ groups:
           --peer-client-file=</path/to/peer-cert-file>
           --peer-key-file=</path/to/peer-key-file>
         scored: true
+        type: "skip"
 
       - id: 2.5
         text: "Ensure that the --peer-client-cert-auth argument is set to true (Scored)"
