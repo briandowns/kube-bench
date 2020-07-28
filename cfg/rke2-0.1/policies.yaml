@@ -1,6 +1,6 @@
 ---
 controls:
-version: 1.5
+version: rke2-0.1
 id: 5
 text: "Kubernetes Policies"
 type: "policies"

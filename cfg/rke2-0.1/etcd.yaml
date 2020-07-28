@@ -1,6 +1,6 @@
 ---
 controls:
-version: 1.15
+version: rke2-0.1
 id: 2
 text: "Etcd Node Configuration"
 type: "etcd"

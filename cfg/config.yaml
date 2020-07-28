@@ -3,8 +3,6 @@
 # These are YAML files that hold all the details for running checks.
 #
 ## Uncomment to use different control file paths.
-# masterControls: ./cfg/master.yaml
-# nodeControls: ./cfg/node.yaml
 
 master:
   components:
@@ -209,3 +207,4 @@ version_mapping:
   "gke-1.0": "gke-1.0"
   "ocp-3.10": "rh-0.7"
   "ocp-3.11": "rh-0.7"
+  "rke2-0.1": "rke2-0.1"
